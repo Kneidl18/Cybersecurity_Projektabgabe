@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusNet Login | Totally Legit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body class="page page-login">
+  <div class="bg-grid"></div>
+  <div class="bg-blob"></div>
+  <div class="bg-blob blob-2"></div>
+  <header class="topbar">
+    <div class="logo-mark" aria-hidden="true">🛰️</div>
+    <div>
+      <div class="eyebrow">Very Secure</div>
+      <div class="logo">Cyber Lab</div>
+    </div>
+    <div class="beta-chip" title="Nothing to see here">beta-ish</div>
+  </header>
+
+  <main class="layout">
+    <section class="hero">
+      <h1>Please log in -- what could possibly go wrong?</h1>
+    </section>
+
+    <section class="card login-card">
+      <div class="card-head">
+        <div>
+          <p class="eyebrow">Login</p>
+          <h2>Welcome back, Agent</h2>
+          <p class="hint">Note: Every password is accepted. Literally. Security? Never heard of it.</p>
+        </div>
+        <div class="mini-avatar" aria-hidden="true">🙈</div>
+      </div>
+      <form class="login-form" method="GET" action="dashboard.html">
+        <label class="field">
+          <span>Username</span>
+          <input type="text" name="user" required autocomplete="username" placeholder="not_admin_123" />
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input id="password" type="password" name="pass" required autocomplete="current-password" placeholder="Definitely not storing this in plaintext... probably." />
+          <small id="caps-hint" class="caps-hint" aria-live="polite">Caps Lock ist aktiv. Bold Move.</small>
+        </label>
+        <div class="form-footer">
+          <button type="submit" class="primary-btn">Log In (100% secure)</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Built for the ARP-Spoofing Show &middot; Keep calm and rotate your MAC.</span>
+  </footer>
+</body>
+</html>

