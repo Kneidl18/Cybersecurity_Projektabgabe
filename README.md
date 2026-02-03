@@ -7,4 +7,8 @@ Overview of the file structure:
 - The website for the demo is found in `assets/website/`.<br>
 
 <i> Note:</i>
-The virtual machines used were each a `Kali Linux` machine (3 individual machines) which were hosted using Parallels Desktop on MacBook Pro 2022 (M2-Pro chip). The VMs had no special configurations other than the caplet and the tools used in the report.
+The virtual machines used were each a `Kali Linux` machine (3 individual machines) which were hosted using Parallels Desktop on MacBook Pro 2022 (M2-Pro chip). The VMs had no special configurations other than the caplet and the tools used in the report.<br>
+<br>
+### Team: <br>
+<a href="https://github.com/Kneidl18">Andreas Auer</a><br>
+<a href="https://github.com/sarahgtz">Sarah Götz</a>
